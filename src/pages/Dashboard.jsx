@@ -6,7 +6,7 @@ const Dashboard = () => {
   const setUser = useSetRecoilState(userAtom);
   const handleClick = async () => {
     const response = await axios.post(
-      "http://localhost:4000/api/v1/students/logout",
+      "https://books-buddy-backend.vercel.app/api/v1/students/logout",
       {},
       {
         headers: {
