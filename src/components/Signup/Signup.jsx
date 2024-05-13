@@ -18,7 +18,7 @@ const SignupForm = () => {
   const handleClick = async (e) => {
     e.preventDefault();
     const response = await axios.post(
-      "http://localhost:4000/api/v1/students/signup",
+      "https://books-buddy-backend.vercel.app/api/v1/students/signup",
       inputs,
       {
         headers: {
