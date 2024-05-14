@@ -31,7 +31,7 @@ const MyNavbar = () => {
             >
               <Offcanvas.Header closeButton className="bg-dark">
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  BooksBuddy
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="bg-dark">
@@ -70,8 +70,8 @@ const MyNavbar = () => {
                   <Nav.Link href="../../pages/contact.html">
                     Contact Us
                   </Nav.Link>
-                  <Nav.Link href="../../pages/login.html">Log In</Nav.Link>
-                  <Nav.Link href="../../pages/signup.html">Sign Up</Nav.Link>
+                  {/* <Nav.Link href="../../pages/login.html">Log In</Nav.Link>
+                  <Nav.Link href="../../pages/signup.html">Sign Up</Nav.Link> */}
                 </Nav>
                 <Form className="d-flex">
                   <Form.Control
